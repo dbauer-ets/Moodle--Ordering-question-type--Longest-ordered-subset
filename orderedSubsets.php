@@ -1,16 +1,16 @@
 <?php
 
 /**
- * This code finds all ordered subsets of a set of numbers.
+ * This code finds all ordered subsets of a set of items.
  *
  * @copyright  2018 Dominique Bauer (dominique.bauer@etsmtl.net)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-/***************************************************/
+/****************************************************************/
 //Define the set of numbers:
-$studentAnswer = array(1,3,2,4);
-/***************************************************/
+$studentAnswer = array("C","B","G","D","E","H","A","I","J","F");
+/****************************************************************/
 
 function subSet($n) {
     $in = range(1,$n);
