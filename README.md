@@ -1,8 +1,8 @@
 Ordered subsets
 -
-This code finds all ordered subsets of a set of numbers. Numbers can be real and the set can be of any size.
+This code finds all ordered subsets of a set of items. Items can be real numbers or strings, and the set can be of any size.
 
-For example, if the set of numbers is (1, 3, 2, 4), the code displays all ordered subsets are as follows:
+For example, if the set of items is (1, 3, 2, 4), the code displays all ordered subsets as follows:
 
     1,3
     1,2
@@ -11,3 +11,132 @@ For example, if the set of numbers is (1, 3, 2, 4), the code displays all ordere
     2,4
     1,3,4
     1,2,4
+
+It the set of items is ("C","B","G","D","E","H","A","I","J","F"), the codes displays all ordered subsets as follows:
+
+    C,G
+    C,D
+    C,E
+    C,H
+    C,I
+    C,J
+    C,F
+    B,G
+    B,D
+    B,E
+    B,H
+    B,I
+    B,J
+    B,F
+    G,H
+    G,I
+    G,J
+    D,E
+    D,H
+    D,I
+    D,J
+    D,F
+    E,H
+    E,I
+    E,J
+    E,F
+    H,I
+    H,J
+    A,I
+    A,J
+    A,F
+    I,J
+    C,G,H
+    C,G,I
+    C,G,J
+    C,D,E
+    C,D,H
+    C,D,I
+    C,D,J
+    C,D,F
+    C,E,H
+    C,E,I
+    C,E,J
+    C,E,F
+    C,H,I
+    C,H,J
+    C,I,J
+    B,G,H
+    B,G,I
+    B,G,J
+    B,D,E
+    B,D,H
+    B,D,I
+    B,D,J
+    B,D,F
+    B,E,H
+    B,E,I
+    B,E,J
+    B,E,F
+    B,H,I
+    B,H,J
+    B,I,J
+    G,H,I
+    G,H,J
+    G,I,J
+    D,E,H
+    D,E,I
+    D,E,J
+    D,E,F
+    D,H,I
+    D,H,J
+    D,I,J
+    E,H,I
+    E,H,J
+    E,I,J
+    H,I,J
+    A,I,J
+    C,G,H,I
+    C,G,H,J
+    C,G,I,J
+    C,D,E,H
+    C,D,E,I
+    C,D,E,J
+    C,D,E,F
+    C,D,H,I
+    C,D,H,J
+    C,D,I,J
+    C,E,H,I
+    C,E,H,J
+    C,E,I,J
+    C,H,I,J
+    B,G,H,I
+    B,G,H,J
+    B,G,I,J
+    B,D,E,H
+    B,D,E,I
+    B,D,E,J
+    B,D,E,F
+    B,D,H,I
+    B,D,H,J
+    B,D,I,J
+    B,E,H,I
+    B,E,H,J
+    B,E,I,J
+    B,H,I,J
+    G,H,I,J
+    D,E,H,I
+    D,E,H,J
+    D,E,I,J
+    D,H,I,J
+    E,H,I,J
+    C,G,H,I,J
+    C,D,E,H,I
+    C,D,E,H,J
+    C,D,E,I,J
+    C,D,H,I,J
+    C,E,H,I,J
+    B,G,H,I,J
+    B,D,E,H,I
+    B,D,E,H,J
+    B,D,E,I,J
+    B,D,H,I,J
+    B,E,H,I,J
+    D,E,H,I,J
+    C,D,E,H,I,J
+    B,D,E,H,I,J
